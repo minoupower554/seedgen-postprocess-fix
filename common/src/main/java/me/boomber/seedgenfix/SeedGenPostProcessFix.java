@@ -23,7 +23,7 @@ import org.apache.logging.log4j.core.filter.AbstractFilter;
  */
 public final class SeedGenPostProcessFix {
 
-	private static final String MESSAGE = "Trying to mark a block for post processing";
+	private static final String MESSAGE = "Trying to mark a block for post";
 
 	private static final boolean SKIP_FEATURE_PAINTING = !"false".equalsIgnoreCase(
 			System.getProperty("seedgenfix.skipFeaturePainting", "true"));
